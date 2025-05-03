@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Hubot+Sans:ital,wght@0,200..900;1,200..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Hubot Sans", sans-serif;
+  background-color: rgb(240, 248, 255);
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+.main {
+  width: 100%;
+  padding: 8px 32px;
+}
+.nav {
+  display: flex;
+  height: 50px;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav .rightside {
+  display: flex;
+  gap: 16px;
+  background-color: aliceblue;
+}
+.heroSection {
+  display: flex;
+  height: 400px;
+  width: 100%;
+  align-items: end;
+  justify-content: space-between;
+}
+.heroSection > .leftside {
+  font-size: 96px;
+  font-weight: bold;
+}
+.heroSection > .rightside {
+  font-size: 16px;
+  font-weight: 100;
+  width: 30%;
+}
+.heroSection > .rightside button {
+  margin-top: 32px;
+  border-radius: 8px;
+  padding: 4px;
+  border-color: rgb(145, 145, 145);
+}
+.heroImg img {
+  margin-top: 32px;
+  width: 100%;
+  border-radius: 16px;
+}
